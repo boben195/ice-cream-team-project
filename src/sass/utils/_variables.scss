@@ -1,0 +1,63 @@
+:root {
+  // backgroubnd and main text colors
+  --background-main: #fcfcfc;
+  --text-light: #fcfcfc;
+  --text-dark: #131313;
+  --text-grey: #ababab;
+  --footer-text-grey: #7a7a7a;
+  --accent-color: #f8d24e;
+  --green-section-background: #84a178;
+
+  //   shades for sections
+  --product-green: #aec6a5;
+  --circle-green: linear-gradient(
+      0deg,
+      rgba(156, 190, 143, 0.7),
+      rgba(156, 190, 143, 0.7)
+    ),
+    #d9d9d9;
+  --circle-green-shadow: 0px 8px 30px rgba(10, 136, 23, 0.25);
+
+  --product-yellow: #efd478;
+  --circle-yellow: linear-gradient(
+      0deg,
+      rgba(248, 210, 78, 0.7),
+      rgba(248, 210, 78, 0.7)
+    ),
+    #d9d9d9;
+  --circle-yellow-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+
+  --product-brown: #d6936d;
+  --circle-brown: linear-gradient(
+      0deg,
+      rgba(213, 117, 63, 0.7),
+      rgba(213, 117, 63, 0.7)
+    ),
+    #d9d9d9;
+  --circle-brown-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+
+  --input-fill: rgba(#f8d24e, 0.1);
+
+  //   buttons and button borders
+
+  --button-green: #0a8817;
+  --button-grey: #ababab;
+  --button-yellow: #f8d24e;
+
+  //   modal
+  --modal-backdrop-yellow: rgba(248, 210, 78, 0.2);
+  --modal-backdrop-green: rgba(10, 136, 23, 0.2);
+  --modal-backdrop-brown: rgba(213, 117, 63, 0.2);
+
+  //   borders
+  --border-brown: 2px solid #d6936d;
+  --border-green: 2px solid #96af8c;
+  --border-yellow: 2px solid #f8d24e;
+  --border-grey: 2px solid #ababab;
+  --input-border: 1px solid #84a178;
+
+  // transitions
+  --easeInBack: 0.6s cubic-bezier(0.36, 0, 0.66, -0.56);
+  --easeOutCirc: 0.6s cubic-bezier(0, 0.55, 0.45, 1);
+  --easeInOutBack: 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
